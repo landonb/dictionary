@@ -12,6 +12,8 @@ var (
 	DefaultDictionaryNotFound = errors.New("Unable to find default dictionary")
 
 	dictionaryLocations = []string{
+		// → /etc/dictionaries-common/words
+		// → /usr/share/dict/american-english
 		"/usr/share/dict/words",
 		"/usr/dict/words",
 	}
